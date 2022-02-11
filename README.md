@@ -40,4 +40,8 @@ Open-source Trail/Rock camera. See the trail or road in front of you or position
 3. Click the gear icon to change the settings
 4. Click the "Start Stream" button to view your camera stream
 
-
+## Troubleshooting
+- If tapping "Start Stream" does nothing (usually when it's saved as a Home Screen bookmark):
+  1. Delete the bookmark from the Home Screen
+  2. In the browser, navigate to `192.168.4.1`
+  3. Re-add the bookmark to home screen
