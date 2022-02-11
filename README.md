@@ -16,9 +16,9 @@ Open-source Trail/Rock camera. See the trail or road in front of you or position
 
 ##### Portrait
 <p>
-<img src="/screenshots/IMG_5562.PNG" width="325">
-<img src="/screenshots/IMG_5563.PNG" width="325">
-<img src="/screenshots/IMG_5565.PNG" width="325">
+<img src="/screenshots/IMG_5562.PNG" width="300">
+<img src="/screenshots/IMG_5563.PNG" width="300">
+<img src="/screenshots/IMG_5565.PNG" width="300">
 </p>
 
 ## Parts
