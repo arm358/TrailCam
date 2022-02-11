@@ -22,6 +22,7 @@ Open-source Trail/Rock camera. See the trail or road in front of you or position
 
 1. Connect to the TrailCam WiFi network (open credentials)
 2. In a browser, navigate to `192.168.4.1`
+  - For a cleaner look on mobile, add the bookmark to your homescreen and access the page there. It will appear more "applike" without the browser address bar 
 3. Click the gear icon to change the settings
 4. Click the "Start Stream" button to view your camera stream
 
