@@ -6,11 +6,15 @@ Open-source Trail/Rock camera. See the trail or road in front of you or position
 - Access camera stream from any smartphone
 - Standalone WiFi access point - no internet connection required
 - Change resolution, filters, and other options direct from UI
+
+##### Landscape
 <p>
-<img src="/screenshots/IMG_5566.PNG" width="325">
-<img src="/screenshots/IMG_5567.PNG" width="325">
-<img src="/screenshots/IMG_5564.PNG" width="325">
+<img src="/screenshots/IMG_5566.PNG" width="850">
+<img src="/screenshots/IMG_5567.PNG" width="850">
+<img src="/screenshots/IMG_5564.PNG" width="850">
 </p>
+
+##### Portrait
 <p>
 <img src="/screenshots/IMG_5562.PNG" width="325">
 <img src="/screenshots/IMG_5563.PNG" width="325">
