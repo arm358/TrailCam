@@ -6,6 +6,16 @@ Open-source Trail/Rock camera. See the trail or road in front of you or position
 - Access camera stream from any smartphone
 - Standalone WiFi access point - no internet connection required
 - Change resolution, filters, and other options direct from UI
+<p>
+<img src="/screenshots/IMG_5566.PNG" width="325">
+<img src="/screenshots/IMG_5567.PNG" width="325">
+<img src="/screenshots/IMG_5564.PNG" width="325">
+</p>
+<p>
+<img src="/screenshots/IMG_5562.PNG" width="325">
+<img src="/screenshots/IMG_5563.PNG" width="325">
+<img src="/screenshots/IMG_5565.PNG" width="325">
+</p>
 
 ## Parts
 - ESP32 Camera Board <a href="https://www.amazon.com/Aideepen-ESP32-CAM-Bluetooth-ESP32-CAM-MB-Arduino/dp/B08P2578LV/ref=sr_1_1?crid=1A2R6HYT898FH&keywords=esp32%2Bcam&qid=1644586486&sprefix=esp32%2Bcam%2Caps%2C120&sr=8-1&th=1">(such as this board sold by Amazon)</a>
