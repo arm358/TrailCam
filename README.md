@@ -42,6 +42,12 @@ Open-source Trail/Rock camera. See the trail or road in front of you or position
 
 ## Troubleshooting
 - If tapping "Start Stream" does nothing (usually when it's saved as a Home Screen bookmark):
-  1. Delete the bookmark from the Home Screen
-  2. In the browser, navigate to `192.168.4.1`
-  3. Re-add the bookmark to home screen
+  1. Tap the Gear icon to open the settings
+  2. Tap the "Reset System" button
+  3. Tap the Refresh icon
+  4. ---- OR ----
+  5. Delete the bookmark from the Home Screen
+  6. In the browser, navigate to `192.168.4.1`
+  7. Re-add the bookmark to home screen
+
+
