@@ -92,6 +92,8 @@ static esp_err_t stream_handler(httpd_req_t *req) {
   return res;
 }
 
+void(* resetFunc) (void) = 0;
+
 static esp_err_t cmd_handler(httpd_req_t *req) {
   char*  buf;
   size_t buf_len;
@@ -154,6 +156,7 @@ static esp_err_t cmd_handler(httpd_req_t *req) {
   else if (!strcmp(variable, "special_effect")) res = s->set_special_effect(s, val);
   else if (!strcmp(variable, "wb_mode")) res = s->set_wb_mode(s, val);
   else if (!strcmp(variable, "ae_level")) res = s->set_ae_level(s, val);
+  else if (!strcmp(variable, "refresh")) {resetFunc();}
   else {
     res = -1;
   }
@@ -173,6 +176,9 @@ static esp_err_t index_handler(httpd_req_t *req) {
   sensor_t * s = esp_camera_sensor_get();
   return httpd_resp_send(req, (const char *)index_ov2640_html_gz, index_ov2640_html_gz_len);
 }
+
+
+
 
 void startCameraServer() {
   httpd_config_t config = HTTPD_DEFAULT_CONFIG();
@@ -199,6 +205,8 @@ void startCameraServer() {
     .handler   = cmd_handler,
     .user_ctx  = NULL
   };
+
+
 
   Serial.printf("Starting web server on port: '%d'\n", config.server_port);
   if (httpd_start(&camera_httpd, &config) == ESP_OK) {
